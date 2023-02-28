@@ -8,7 +8,7 @@ local windowsrules = import 'github.com/kubernetes-monitoring/kubernetes-mixin/r
       job_name: 'windows-exporter',
       static_configs: [
         {
-          targets: [error 'must provide targets array'],
+          targets: [],
         },
       ],
       relabel_configs: [
